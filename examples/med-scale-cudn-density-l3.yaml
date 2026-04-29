@@ -5,7 +5,7 @@ tests:
       platform: AWS
       masterNodesType: m6a.4xlarge
       masterNodesCount: 3
-      workerNodesType: m5.xlarge
+      workerNodesType: m6a.2xlarge
       workerNodesCount: 120
       benchmark.keyword: cudn-density
       wildcard:
