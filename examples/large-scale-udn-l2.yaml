@@ -5,9 +5,9 @@ tests:
       platform: AWS
       masterNodesType: m6a.4xlarge
       masterNodesCount: 3
-      workerNodesType: m5.xlarge
+      workerNodesType: m6a.2xlarge
       workerNodesCount: 252
-      infraNodesType: r5.4xlarge
+      infraNodesType: r5.8xlarge
       benchmark.keyword: udn-density-pods
       wildcard:
         ocpVersion: "{{ version }}*"
